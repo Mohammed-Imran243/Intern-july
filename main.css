@@ -3,6 +3,13 @@
   align-items: center;
   text-align: center;
   left: 50%;
+  margin-left: 150px;
+  margin-top: 190px;
+  display: flex;
+}
+
+.hero section:hover{
+  border: 5px solid black;
 }
 .card{
   justify-content: center;
@@ -77,3 +84,4 @@
   transition: all 0.3s ease-out;
   color: rgba(255, 255, 255, 0.8);
 }
+@import "tailwindcss";
