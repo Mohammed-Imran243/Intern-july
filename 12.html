@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="output.css" />
 </head>
 <body>
-    <header>
+    <header style="position: sticky; top: 0;z-index: 1;">
         <nav class="max-w-[65rem] mx-auto px-4 py-5">
             <div class="flex justify-between items-center">
                 <div>
@@ -41,17 +41,110 @@
             <div class="text-center mt-20 flex justify-center py-10">
                 <h1 class="font-extrabold text-2xl">Trusted by top-tier product companies</h1>
             </div class="flex flex-col">
-            <section class=" max-w-[75rem] mx-auto ">
+            <section class=" max-w-[65rem] mx-auto ">
             <div class="flex justify-center items-center  gap-10">
-            <img src="./assests/Google-Logo.webp" alt="Google" class="h-12 max-w-[350px] grayscale hover:grayscale-0 transition" />
-            <img src="./assests/Shopify-Logo.svg" alt="Shopify" class="h-12 max-w-[350px]  grayscale hover:grayscale-0 transition" />
-            <img src="./assests/Cloudflare-Logo.svg" alt="Cloudflare" class="h-12 max-w-[350px]  grayscale hover:grayscale-0 transition" />
-            <img src="./assests/PayPal-Logo.png" alt="PayPal" class="h-12 max-w-[350px]  grayscale hover:grayscale-0 transition" />
+            <img src="./assests/Google-Logo.webp" alt="Google" class="h-12 max-w-[350px] grayscale hover:grayscale-0 transition" style="width: 200px;" />
+            <img src="./assests/Shopify-Logo.svg" alt="Shopify" class="pr-5 h-12 max-w-[350px]  grayscale hover:grayscale-0 transition" style="width: 200px;height: 80px;"/>
+            <img src="./assests/Cloudflare-Logo.svg" alt="Cloudflare" class="pr-5 h-12 max-w-[350px]  grayscale hover:grayscale-0 transition"style="width: 200px;height: 80px;" />
+            <img src="./assests/PayPal-Logo.png" alt="PayPal" class=" h-12 max-w-[350px]  grayscale hover:grayscale-0 transition"style="width: 200px;height: 80px;" />
             </div>
 </section>
             </div>
         </section>
+        <section>
+            <div class="pt-5 flex justify-center mt-5">
+                <h1 class="font-extrabold text-5xl text-center mt-10 pt-20">Less code, less effort.</h1>
+            </div>
+            <div class="flex justify-center mt-7">
+                <h1 class="text-2xl text-gray-500 font-bold">Minify your CSS with Tailwind's built in PostCSS support.</h1> 
+            </div>
+            <div class="flex justify-center items-center border border-black max-w-[800px] mx-auto pt-10 mt-10">
+                <img src="./assests/placeholder.png" alt="image">
+            </div>
+        </section>
+        <section>
+            <div class="flex justify-center text-center pt-10 mt-10 ">
+                <h1 class="text-5xl text-black font-extrabold">Subscribe to our newsletter</h1>
+            </div>
+            <div class="flex justify-center text-center pt-3 mt-3 pb-10 mb-10">
+                <h1 class="text-2xl text-gray-500 font-bold">Enter your email address and get our newsletters straight away.</h1>
+            </div>
+            <div class="max-w-[65rem] mx-auto px-4 py-5 flex justify-center -mt-5">
+                <div class="flex items-center   px-2 mx-2 ">
+                <input
+                type="email"
+                placeholder="jack@example.com"
+                class="flex-grow px-4 py-2 border border-gray-300 rounded-l-md focus:outline-none focus:ring-2 focus:ring-gray-900 text-gray-700"
+                />
+                <button
+                class="bg-black text-white px-6 py-2 rounded-md ml-5 hover:bg-gray-900 transition-colors max-w-500 w-l"
+                >
+                Subscribe
+                </button>
+
+            </div>
+            </div>
+        </section>
     </main>
+    <footer class="inline-flex pt-15 mt-15 bg-black w-full mx-auto">
+        <div class="pl-25 ml-25  text-white">
+            <div>
+                <h1 class=" font-bold text-xl  text-white">COMPANY</h1>
+            </div>
+            <div class="flex flex-col text-xl font-bold  text-white">
+                <a href="#">Jobs</a>
+                <a href="#">Merch</a>
+                <a href="#">Brand</a>
+                <a href="#">Meetups</a>
+            </div>
+        </div>
+        <div class="pl-25 ml-25  text-white">
+            <div>
+                <h1 class="font-bold text-xl  text-white">NEWS ROOM</h1>
+            </div>
+            <div class="flex flex-col text-xl  font-bold  text-white">
+                <a href="#">News</a>
+                <a href="#">Blog</a>
+                <a href="#">Press</a>
+            </div>
+        </div>
+        
+        <div class="pl-25 ml-25">
+            <div>
+                <h1 class="font-bold text-xl  text-white">PRODUCTS</h1>
+            </div>
+            <div class="flex flex-col text-xl  font-bold  text-white">
+                <a href="#">Hosting</a>
+                <a href="#">Domains</a>
+                <a href="#">Security</a>
+                <a href="#">SSL</a>
+            </div>
+        </div>
+            <div class="pl-25 ml-25">
+            <div>
+                <h1 class=" text-white font-bold text-xl">CONNECT</h1>
+            </div>
+            <div class="flex flex-col text-xl  text-white font-bold">
+                <a href="#">Twitter</a>
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a> 
+            </div>
+        </div>
+        </div>
+        <hr >
+    </footer>
+    <footer class="inline-flex justify-between">
+        <div>
+            <a href="#">Terms of Service</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Ad Choices</a>
+            <a href="#">Cookie Policy</a>
+            <a href="#">Partners</a>
+        </div>
+        <div class="right-0">
+            <p>&Cap;2021 Company Inc.</p>
+        </div>
+    </footer>
 
     
 </body>
